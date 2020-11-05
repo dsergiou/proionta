@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>proionta</title>
+    <style>
+    h1 {text-align: center;}
+    p {text-align: center;}
+    div {text-align: center;}
+    body {
+      background-image: url('ikona.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+</style>
+  </head>
+  <body>
+
+    <form method="POST" action="SaveProduct">
+    <div id="okay">
+      <h1>ADD PRODUCT</h1>
+      <h2>Please fill in this form the product.</h2>
+      <hr>
+
+      <label for="Barcode"><b>Barcode</b></label>
+      <input type="text" placeholder="Enter Barcode" name="Barcode" id="Barcode" required>
+
+      <label for="Name"><b>Name</b></label>
+      <input type="Name" placeholder="Enter Name" name="name" id="name" required>
+
+      <label for="Color"><b>Color</b></label>
+      <input type="color" placeholder="enter Color" name="color" id="color" required>
+
+      <label for="Description"><b>Description</b></label>
+      <input type="Description" placeholder="Enter Description" name="Description" id="Description" required>
+      <hr>
+
+      <button type="submit" class="registerbtn">ADD PRODUCT</button>
+    </div>
+
+  </body>
+</html>

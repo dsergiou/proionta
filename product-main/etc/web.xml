@@ -1,0 +1,15 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/j2ee/web-app_2_4.xsd"
+         version="2.4">
+    <servlet>
+        <servlet-name>Proionta</servlet-name>
+        <servlet-class>com.demos.web.Proionta</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Proionta</servlet-name>
+        <url-pattern>/SaveProduct</url-pattern>
+    </servlet-mapping>
+</web-app>
+
